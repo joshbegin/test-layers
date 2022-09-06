@@ -1,0 +1,23 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "test-layers"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-xwloyx9a4ub4"
+s3_prefix = "test-layers"
+region = "us-east-1"
+profile = "inbound-sandbox"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM CAPABILITY_AUTO_EXPAND"
+image_repositories = []
+
+[default.sync]
+[default.sync.parameters]
+stack_name = "test-layers"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-xwloyx9a4ub4"
+s3_prefix = "test-layers"
+region = "us-east-1"
+profile = "inbound-sandbox"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM CAPABILITY_AUTO_EXPAND"
+image_repositories = []
